@@ -92,14 +92,56 @@ import 패키지명;
     - synchronized	: 동기화, 멀티스레드
     - native		: JNI(Java Native Interface)
 
-5. 내부클래스
+5. 내부(중첩)클래스 : 클래스이름이 어떻게 만들어 지는지, 객체를 어떻게 생성할 수 있는지
+  - 일반중첩클래스 		
+  - static중첩클래스
+  - 지역중첩클래스
+  - 익명중첩클래스
+
 - 클래스 기초 Ⅱ
 6. 상속
+  - extends
+  - Object class
+  - protected
+  - 상속관계, 포함관계
+  - 오버라이드
+
 7. 다형성
 8. 추상화
 9. 인터페이스
+  - 멤버필드 : public static final 멤버필드
+  - 멤버메소드 : public abstract 멤버메소드
+  - 생성자 : 없다
+  - 내부클래스 : static 중첩클래스
+
+※ 자바코드에서 생략하는 코드
+  - import java.lang.*
+  - default 생성자
+  - this키워드
+  - 0번째 매개변수
+  - extends Object
+  - 객체명.toString() = 객체명
+  - super()
 
 - 클래스응용(API활용)
+  - String클래스
+  - Collection : 자바의 자료구조
+  - java.lang 패키지
+  - java.util 패키지
+  - java.text 패키지
+  - java.util.regex 패키지
+  - java.io 패키지(File I/O)
+  - java.net 패키지(network 프로그램)
+  - java.sql 패키지(JDBC프로그램)
+  ---------GUI--------------
+  - java.awt 패키지
+  - java.awt.event 패키지
+  - javax.swing 패키지
+  - javax.swing.border 패키지
+
+
+
+
 
 
 
