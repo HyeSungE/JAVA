@@ -140,7 +140,10 @@ getter메소드 : private멤버 꺼낼때 : get+멤버필드이름 ex)getScore(i
 
 < 클래스 응용 - API활용>
  - String클래스
- - Collection  :  자바의 자료구조
+ - Collection  :  자바의 자료구조 : 무한한 데이터의 집합
+	ㄴset : 담기만을 위함 , 정렬 X , 재사용(바로바로꺼내서 사용하는 것) X => 전체를 다 찾아봐야 사용가능하다.
+	ㄴMap
+	ㄴList
  -  java.lang 패키지  
  -  java.util 패키지
  -  java.text 패키지
