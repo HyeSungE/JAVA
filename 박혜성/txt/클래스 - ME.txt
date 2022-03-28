@@ -142,11 +142,40 @@ getter메소드 : private멤버 꺼낼때 : get+멤버필드이름 ex)getScore(i
  - String클래스
  - Collection  :  자바의 자료구조 : 무한한 데이터의 집합
 	ㄴset : 담기만을 위함 , 정렬 X , 재사용(바로바로꺼내서 사용하는 것) X => 전체를 다 찾아봐야 사용가능하다.
-	ㄴMap
-	ㄴList
+		-HashSet , TreeSet
+	ㄴMap : 정렬 X , 재사용 O => key-value로 데이터를 찾음 
+		키값이 들어가기때문에 set(16)보다 적은 11
+		중요함 - 클래스 익히기 
+		-HashMap , Hashtable , TreeMap
+	ㄴList : 정렬 O 재사용 O 
+		-ArrayList , LinkedList , Vector
+	ㄴ Generic :  Collection에서 어떤 객체타입으로 만들지 미리 설정해주는 것
+	
+	ㄴauto-boxing 
+ 
+	Comparable : 기본정렬을 하기 위한 상속받는 인터페이스
+	compareTo()메소드를 오버라이드 해줘야 한다.
+	이 메소드가 정렬을 나타내는 메소드 입니다.
+
+	Comparator : 내가 기준정렬을 정하여 사용할때 쓰는 인터페이스
+	compare()메소드를 오버라이드 해줘야 한다.
+	이 메소드 안에서 정렬의 기준을 삼아 처리하면 된다.
+
+	기본자료형을 클래스로 만들 집합 -> WrapperClass
+	boolean	: Boolean
+	byte	: Byte
+	short	: Short
+	char	: Character
+	int	: Integer
+	long	: Long
+	float	: Float
+	double	: Double
+
  -  java.lang 패키지  
  -  java.util 패키지
+	ㄴ Date와 Calender Class
  -  java.text 패키지
+	ㄴSimpleDateFormat  : Date와 함께 많이 쓰인다.
  -  java.util.regex 패키지
  -  java.io 패키지 (File I/O)
  -  java.net 패키지 (네트워크 프로그램)

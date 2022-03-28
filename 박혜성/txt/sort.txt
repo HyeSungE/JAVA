@@ -1,0 +1,18 @@
+Comparable : 기본정렬을 하기 위한 상속받는 인터페이스
+compareTo()메소드를 오버라이드 해줘야 한다.
+이 메소드가 정렬을 나타내는 메소드 입니다.
+
+
+Comparator : 내가 기준정렬을 정하여 사용할때 쓰는 인터페이스
+compare()메소드를 오버라이드 해줘야 한다.
+이 메소드 안에서 정렬의 기준을 삼아 처리하면 된다.
+
+기본자료형을 클래스로 만들 집합 -> WrapperClass
+boolean	: Boolean
+byte	: Byte
+short	: Short
+char	: Character
+int	: Integer
+long	: Long
+float	: Float
+double	: Double
