@@ -125,22 +125,46 @@ import 패키지명;
 
 - 클래스응용(API활용)
   - String클래스
-  - Collection : 자바의 자료구조
+  - Collection : 자바의 자료구조 - 무한한 데이터의 집합
+    - Set	: 정렬(X), 재사용(X) - HashSet, TreeSet
+    - Map	: 정렬(X), 재사용(O) - HashMap, Hashtable, TreeMap
+    - List	: 정렬(O), 재사용(O) - ArrayList, LinkedList, Vector
   - java.lang 패키지
+    - Math
+
   - java.util 패키지
+    - Date와 Calendar
+    - Scanner, StringTokenizer, String의 split
+ 
   - java.text 패키지
+    - SimpleDateFormat
+
   - java.util.regex 패키지
   - java.io 패키지(File I/O)
   - java.net 패키지(network 프로그램)
   - java.sql 패키지(JDBC프로그램)
   ---------GUI--------------
   - java.awt 패키지
+    - Frame
+    - Label, Button
+    - Layout(배치관리자)
+      - FlowLayout	: 
+      - GridLayout
+      - BorderLayout	: Frame 클래스의 default layout
+      - CardLayout
+      - GridBagLayout
+
   - java.awt.event 패키지
   - javax.swing 패키지
   - javax.swing.border 패키지
 
-
-
+  - 멀티스레드
+  - 예외처리 : 잘못된 것에 대한 메세지 처리
+    - 강제예외 : throw
+    - 예외전가 : throws 
+      오버라이드시 부모에 없는 예외전가를 자식은 만들 수 없다
+    - 예외처리 : try ~ catch
+    - 예외처리클래스 만들기
 
 
 

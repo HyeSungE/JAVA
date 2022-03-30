@@ -172,8 +172,10 @@ getter메소드 : private멤버 꺼낼때 : get+멤버필드이름 ex)getScore(i
 	double	: Double
 
  -  java.lang 패키지  
+	ㄴ 언제나 import돼있기 때문에 math클래스를 사용가능하다
  -  java.util 패키지
 	ㄴ Date와 Calender Class
+	ㄴ Scanner와 StringTokenizer , String의 splits
  -  java.text 패키지
 	ㄴSimpleDateFormat  : Date와 함께 많이 쓰인다.
  -  java.util.regex 패키지
@@ -182,11 +184,31 @@ getter메소드 : private멤버 꺼낼때 : get+멤버필드이름 ex)getScore(i
  -  java.sql (JDBC패키지)
 ------GUI-------------------------------------------------------------------------------------------------------------------------------
  -  java.awt 패키지
+	ㄴFrame 클래스 :  제일먼저 화면에 뭔가를 나타나게 해주는 클래스
+	ㄴLabel , Button
+	ㄴLayout (배치관리자) - 하나의 공간에는 하나의 컴포넌트만 들어가기 때문에 공간이 겹치면 덮어쓰게됨
+	   : FlowLayout -어는 위치를 기준으로 퍼지는 형태 다 차면 다음...
+	   : GridLayout - 창을 나누는 것
+	   : BorderLayout - Frame의 default // 동서남북 가운데 지정 - >default는 가운데
+	   : CardLayout - 
+	   : GridBagLayout - 
+	ㄴ
+	ㄴ	
  -  java.awt.event 패키지 
  -  java.swing 패키지
  - java.swing.border 패키지
 
+ - 멀티스레드
+ - 예외처리	﻿
+	ㄴ 강제예외 : throw : 예외가 발생하면 부른 곳으로 예외를 넘긴다.
 
+	ㄴ 예외전가 : throws : 예외를 시스템에서 처리하게끔 미루는 것. 시스템은 코드가 끝나면 종료하기때문에 예외를처리하지 않는다. =예외를 미룬다.
+
+	ㄴ 예외처리 : try-catch : 오류나 예외가 발생했다고 알려주는 메시지 처리를 해주는 것
+
+에러는 문법적 오류로 코드를 아예 잘못쓴것이다. 예외는 프로그램 도중 나타나는 문제이다. 국어점수를 써야하는 곳에 영어점수를 쓰는 것과 같다.
+
+﻿
 
 -----------------------------------------------------------------------------------------------------------------------------------
 클래스는 stack 영역이 아닌 heap영역에 저장된다 -> new 동적메모리할당연산자 사용
